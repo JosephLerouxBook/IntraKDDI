@@ -1,0 +1,161 @@
+body { /*Toute la page*/
+	background-color : #10015d;
+}
+h2 {
+	text-align: center;
+	margin-top: 100px;
+	font-size: 50px;
+	font-family: EvogriaItalic;
+	text-decoration: underline;
+}
+table { /*Le tableau*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;	
+	border-collapse: separate;
+	font:serif;
+}
+th { /*Toute les entetes*/
+	color:black;
+	font-size: 25px;
+	font-family:"EvogriaItalic";
+	width: 165px;
+	border-radius: 3px;
+}
+td { /*Toutes les cases du corps*/
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Evogria";
+	border-radius: 3px;
+}
+table a { /* rend la case complete cliquable */
+	display: block;
+	text-decoration: none;
+}
+table a:visited{ /* quand le lien a deja ete cliquer, le rend pas violet */
+	color: white;	
+	text-decoration: none;
+}
+table a:hover{
+	text-decoration: none;
+	color:black;
+}
+
+/*---------------1ere colonne : Outils---------------*/
+.thOut, .Outils { /*Bordure*/
+	border: 2px solid;
+	border-color: #fdfd15;
+}
+.Outils:hover { /* Passage de souris */
+	background-color: #fefe2a;
+	color: black;
+	opacity: 0.9;
+}
+.Outils:active{
+	border: inset;
+	background-color: #ffff48;
+}
+.thOut { /*couleur de fond de l'entete*/
+	background-color: #fdfd15;
+}
+
+/*---------------2e colonne : Procedure---------------*/
+.thProc, .Procedures {/*Colonne Procedure*/
+	border: 2px solid;
+	border-color: #fdbe15;
+}
+.Procedures:hover {
+	background-color: #ffc834;
+	color: black;
+	opacity: 0.9;
+}
+.Procedures:active{
+	border: inset;
+	background-color: #ffda75;
+}
+.thProc {
+	background-color: #fdbe15;
+}
+
+/*---------------3e colonne : Incidents---------------*/
+.thInc, .Incidents {/*Colonne Incidents*/
+	border: 2px solid;
+	border-color: #fd2a15;
+}
+.Incidents:hover {
+	background-color: #ff4634;
+	color: black;
+	opacity: 0.9;
+}
+.Incidents:active{
+	border: inset;
+	background-color: #ff7061;
+}
+.thInc {
+	background-color: #fd2a15;
+}
+
+/*---------------4e colonne : Annexes---------------*/
+.thAnn, .Annexes { /*Colonne Annexes*/
+	border: 2px solid;
+	border-color: #fd1582;
+}
+.Annexes:hover {
+	background-color: #ff56a6;
+	color: black;
+	opacity: 0.9;
+}
+.Annexes:active{
+	border: inset;
+	background-color: #ff70b3;
+}
+.thAnn {
+	background-color: #fd1582;
+}
+
+
+
+
+/*----------------------------------------------------*/
+.Outils, .Procedures, .Incidents, .Annexes {
+}
+
+.Outils {
+}
+.Procedures {
+
+}
+.Incidents {
+
+}
+.Annexes {
+
+}
+
+
+
+@font-face {
+ font-family: "Akira";
+ src: url('fonts/Akira_Expanded.otf');
+}
+@font-face {
+ font-family: "COD";
+ src: url('fonts/CallOfDuty_BO.otf');
+}
+@font-face {
+ font-family: "Evogria";
+ src: url('fonts/Evogria.otf');
+}
+@font-face {
+ font-family: "EvogriaItalic";
+ src: url('fonts/Evogria_Italic.otf');
+}
+@font-face {
+ font-family: "Insanibc";
+ src: url('fonts/Insanibc.ttf');
+}
+@font-face {
+ font-family: "Azonix";
+ src: url('fonts/Azonix.otf');
+}
